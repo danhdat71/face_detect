@@ -1,0 +1,24 @@
+html, * {
+    margin: 0;
+    padding: 0;
+  }
+  #wrap-video {
+    width: 150px;
+    height: 150px;
+    /* border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+  }
+  #video {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+  }
+  #result {
+    text-align: center;
+  }
